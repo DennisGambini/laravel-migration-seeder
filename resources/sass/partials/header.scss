@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70px;
+    background-color: lightblue;
+    gap: 50px;
+    .logo{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        overflow: hidden;
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+    ul{
+        display: flex;
+        gap: 25px;
+        list-style: none;
+        i{
+            margin-right: 15px;
+        }
+    }
+}

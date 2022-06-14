@@ -20503,3 +20503,44 @@ readers do not read off random characters that represent icons */
 .fa-zhihu:before {
   content: "\F63F";
 }
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 70px;
+  background-color: lightblue;
+  gap: 50px;
+}
+header .logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+header .logo img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+header ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+header ul i {
+  margin-right: 15px;
+}
+
+footer .heart {
+  color: red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -5,10 +5,16 @@
     <nav>
         <ul>
             <li>
-                <a href="{{route('home')}}">Home</a>
+                <a href="{{route('home')}}">
+                    <i class="fa-solid fa-home"></i>
+                    <span>Home</span>
+                </a>
             </li>
             <li>
-                <a href="{{route('holidaysList')}}">Pacchetti Vacanza</a>
+                <a href="{{route('holidaysList')}}">
+                    <i class="fa-solid fa-gifts"></i>
+                    <span>Pacchetti Vacanza</span>
+                </a>
             </li>
         </ul>
     </nav>
