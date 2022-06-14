@@ -4,7 +4,7 @@
 
 @section('mainContent')
 
-<div>ciao</div>
+<div>Sono la Home</div>
 <i class="fa-solid fa-home"></i>
 
 
