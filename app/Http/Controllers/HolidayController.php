@@ -11,4 +11,8 @@ class HolidayController extends Controller
         $holidays = Holiday::all();
         return view('holidaysList', compact('holidays'));
     }
+    public function show($id){
+        $holiday = Holiday::findOrFail($id);
+        return view('singleHoliday', compact('holiday'));
+    }
 }

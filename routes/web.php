@@ -18,3 +18,5 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/our_holidays', 'HolidayController@index')->name('holidaysList');
+
+Route::get('/our_holidays/{id}', 'HolidayController@show')->name('singleHoliday');
